@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-亚洲热门影片-热门影片片库-高清视频在线播放</title>
+  <meta name="description" content="搜索亚洲热门影片片库中的影片标题、地区、年份、类型和关键词。">
+  <meta name="keywords" content="影片搜索,亚洲热门影片,热门片库,亚洲热门影片,亚洲影片,热门片库,高清播放,精选影片,影片内容">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="亚洲热门影片">
+      <span class="brand-icon">影</span>
+      <span>亚洲热门影片</span>
+    </a>
+    <nav class="main-nav">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">热播榜</a>
+      <a class="active" href="./search.html">搜索</a>
+    </nav>
+    <form class="top-search site-search-form" action="./search.html">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航">☰</button>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-card">
+        <span class="kicker">Search</span>
+        <h1>影片搜索</h1>
+        <p>输入影片名、地区、类型、年份或关键词，快速进入对应影片详情页。</p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="search-panel">
+        <input id="search-q" type="search" placeholder="输入关键词" aria-label="输入关键词">
+        <select id="search-type" aria-label="选择类型"><option value="">全部类型</option><option value="Movie">Movie</option><option value="OVA">OVA</option><option value="TV series">TV series</option><option value="TV 剧集">TV 剧集</option><option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="亚洲热播">亚洲热播</option><option value="剧集">剧集</option><option value="剧集 (10集)">剧集 (10集)</option><option value="剧集 (36集)">剧集 (36集)</option><option value="剧集 (第一季，12集)">剧集 (第一季，12集)</option><option value="剧集 (第一季，8集)">剧集 (第一季，8集)</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集 / 真人秀">剧集 / 真人秀</option><option value="剧集/动画">剧集/动画</option><option value="剧集（季播）">剧集（季播）</option><option value="剧集（短剧）">剧集（短剧）</option><option value="剧集（长剧）">剧集（长剧）</option><option value="动作冒险">动作冒险</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="动画 / OVA">动画 / OVA</option><option value="动画 / 剧集">动画 / 剧集</option><option value="动画 / 电影">动画 / 电影</option><option value="动画 / 电视剧">动画 / 电视剧</option><option value="动画剧集">动画剧集</option><option value="动画剧集 (TV)">动画剧集 (TV)</option><option value="动画家庭">动画家庭</option><option value="动画电影">动画电影</option><option value="华语精选">华语精选</option><option value="年度新片">年度新片</option><option value="悬疑惊悚">悬疑惊悚</option><option value="日韩佳片">日韩佳片</option><option value="欧美片库">欧美片库</option><option value="爱情剧情">爱情剧情</option><option value="电影">电影</option><option value="电影 / 动画">电影 / 动画</option><option value="电影/动画">电影/动画</option><option value="电影/纪录片">电影/纪录片</option><option value="电影（动画）">电影（动画）</option><option value="电视剧">电视剧</option><option value="电视剧 (20集)">电视剧 (20集)</option><option value="电视剧 (6集)">电视剧 (6集)</option><option value="电视剧 (剧集)">电视剧 (剧集)</option><option value="电视剧 / 剧集">电视剧 / 剧集</option><option value="电视剧 / 系列剧">电视剧 / 系列剧</option><option value="电视剧 / 限定剧">电视剧 / 限定剧</option><option value="电视剧SP">电视剧SP</option><option value="电视剧特别篇">电视剧特别篇</option><option value="电视剧集">电视剧集</option><option value="短剧">短剧</option><option value="科幻奇幻">科幻奇幻</option><option value="纪录片">纪录片</option><option value="纪录片 / 剧集">纪录片 / 剧集</option><option value="纪录片/电影">纪录片/电影</option><option value="综艺">综艺</option><option value="综艺 / 专场">综艺 / 专场</option><option value="综艺 / 剧集">综艺 / 剧集</option><option value="综艺 / 真人秀">综艺 / 真人秀</option><option value="综艺/脱口秀">综艺/脱口秀</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络剧 (短剧)">网络剧 (短剧)</option><option value="网络电影">网络电影</option><option value="迷你剧">迷你剧</option></select>
+        <button class="btn-primary" type="button">搜索</button>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo"><span class="brand-icon">影</span><strong>亚洲热门影片</strong></div>
+      <p>亚洲热门影片页面聚合高热度亚洲内容，包含多地区影片片库和精选片单。</p>
+    </div>
+    <div>
+      <h3>快速导航</h3>
+      <ul>
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./categories.html">分类总览</a></li>
+        <li><a href="./ranking.html">热播榜</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+        <li><a href="./all-movies.html">全站片库</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>精选频道</h3>
+      <ul><li><a href="./category-asian-hot.html">亚洲热播</a></li><li><a href="./category-new-release.html">年度新片</a></li><li><a href="./category-chinese-choice.html">华语精选</a></li><li><a href="./category-japan-korea.html">日韩佳片</a></li><li><a href="./category-euro-american.html">欧美片库</a></li><li><a href="./category-action-adventure.html">动作冒险</a></li></ul>
+    </div>
+  </div>
+</footer>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
